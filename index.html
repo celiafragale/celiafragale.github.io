@@ -1,42 +1,110 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<link
-    <meta charset="UTF-8">
-    <title>Celia Fragale</title>
-</head>
 
+<!DOCTYPE HTML>
+<html>
+    <!--
+    TODO:
+        - Distinct HOME page
+        - EVENTS page
+        - toggles for audio/video projects
+        - BLOG page??
+        - link to YouTube/SoundCloud
+    -->
 
-<head>
-    <style>
-        span {
+    <head>
+        <style>
+            body {
+    background-color: #bcd1c8;
+    font-family: "Cursive", sans-serif;
+}
+
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav {
+    float: left;
+}
+
+img {
+    max-width:50%;
+    height:auto;
+    display: block;
+    border-radius: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+span {
     padding:  0em 1em;
+    border-radius: 10px;
+    font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
     font-size: 16px;
     line-height: 1;
-    color: #FFFFFF;
-    background-color: #b3cccc;
+    font-color: grey;
+    background-color: white;
 }
-    </style>
-</head>
 
-<span title="Instagram"><a href= "https://www.instagram.com/celiafragale/">Instagram</a>
-<span title="KUOW"><a href= "https://www.kuow.org/authors/celia-fragale">Audio</a>
+a {
+    text-decoration: none;
+}
 
-</h>
+/* unvisited link */
+a:link {
+  color: #1364d6;
+}
 
+/* visited link */
+a:visited {
+  color: #1364d6;
+}
 
+/* mouse over link */
+a:hover {
+  color: #73849e;
+}
 
-<body>
-<div class="rectangle"></div>
-</body>
+/* selected link */
+a:active {
+  color: #1364d6;
+}
 
+.centered {
+  text-align: center;
+}
+        </style>
+    </head>
 
+    <head>
+        <meta charset="utf-8">
+        <title>Celia Fragale</title>
+    </head>
+
+    <body>
+        <h1 class="centered" style="color:white; line-height: 10pt;">Celia Fragale</h1>
+        <h3 class="centered" style="color: white; line-height: 18pt;">person making this website</h3>
+
+        <nav>
+            <p class="centered">
+                <span title = "Athletic.net"><a href = "https://www.athletic.net/TrackAndField/Athlete.aspx?AID=10523143">Track and Field times</a></span>
+                <span title = "Athletic.net"><a href = "https://www.athletic.net/CrossCountry/Athlete.aspx?AID=10523143">Cross Country times</a></span>
+                <span title = "KUOW"><a href = "https://www.kuow.org/authors/celia-fragale">Audio Stories</a></span>
+                <span title = "Instagram"><a href = "https://www.instagram.com/celiafragale/">My Instagram</a></span>
+                <span title = "Youtube"><a href = "https://www.youtube.com/watch?v=KhKouNsbROg">Random Video I made Sophmore year</a></span>
+
+            <img src="photo_of_me.jpg" class="centered">
+            <br>
+        </nav>
+
+        <p style="line-height: 1;" class="centered">
+            I am a student of Occidental College (class of 2024) in Los Angeles, born in Seattle, WA.<br>
+            I'm currently making this website for a computer science class on November 4th, 2020.<br>
+        </p>
+    </body>
 </html>
-
-
-
-
-
-
-
-
